@@ -1,79 +1,20 @@
-/* Reset de margens e melhor responsividade */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namora comigo?</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
 
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-}
+<body>
+    <div id="conteudo">
+        <h2>Aceita namorar comigo?</h2>
+        <button class="btn" onclick="sim()">SIM</button>
+        <button class="btn" onmouseover="nao(this)">NÃO</button>
 
-/* Ajustando tamanho e imagens para celular */
-#conteudo {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    color: white;
-    background-image: 
-        url('coração fotos.png'),  /* Imagem de coração */
-        url('ads.png'),  
-        url('fundo.png');  
-    background-color: black;
-    background-size: 
-        50%, /* Coração aumentado */
-        100%, /* Ads */
-        cover; /* Fundo */
-    background-position: 
-        center center, /* Coração */
-        center center, /* Ads */
-        center center; /* Fundo */
-    background-repeat: 
-        no-repeat, 
-        no-repeat, 
-        no-repeat;
-    left: 0;
-    top: 0;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    </div>
+</body>
 
-/* Movendo o texto e botões para o topo */
-#topo {
-    width: 100%;
-    position: absolute;
-    top: 20px;
-    text-align: center;
-}
-
-/* Estilo do título */
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* Ajustando botões para melhor usabilidade */
-.btn {
-    background: black;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    font-size: 18px;
-    width: 120px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin: 10px;
-}
-
-.btn:hover {
-    background: red;
-}
+</html>

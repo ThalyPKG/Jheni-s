@@ -1,16 +1,16 @@
-function sim(){
-    alert("Você aceitou namorar comigo ❤❤");
-    location.href = "https://www.youtube.com/watch?v=0CdMqJ9Lidg=42s";
+function sim() {
+    alert("Você aceitou namorar comigo! ❤️😍");
+    window.location.href = "https://www.youtube.com/watch?v=0CdMqJ9Lidg";
 }
 
-function nao(t){
-    var btn = t;
-    btn.style.position = 'absolute';
-    btn.style.bottom = geradornumero(0, 80);
-    btn.style.left = geradornumero(0, 80);
-    console.log("é o desvias")
-}
+function nao(botao) {
+    let largura = window.innerWidth - botao.offsetWidth;
+    let altura = window.innerHeight - botao.offsetHeight;
 
-function geradornumero(min, max) {
-return (Math.random() * (max - min) + min) + "%";
+    let novaPosicaoX = Math.random() * largura;
+    let novaPosicaoY = Math.random() * altura;
+
+    botao.style.position = "absolute";
+    botao.style.left = novaPosicaoX + "px";
+    botao.style.top = novaPosicaoY + "px";
 }

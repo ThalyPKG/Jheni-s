@@ -1,20 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Namora comigo?</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="estilo.css">
-</head>
+#conteudo {width: 100%;
+    height: 100%;
+    position: fixed;
+    color: aliceblue;
+    background-image:url('img/coração-fotos.png');
+    
+    left: 0;
+    top: 0;
+    padding: 15px;
+    text-align: center;
 
-<body>
-    <div id="conteudo">
-        <h2>Aceita namorar comigo?</h2>
-        <button class="btn" onclick="sim()">SIM</button>
-        <button class="btn" onmouseover="nao(this)">NÃO</button>
+        width: 1324px;
+        height: 630px;
+        position: fixed;
+        color: aliceblue;
+        background-image: 
+            url('img/ads.png'), 
+            url('img/fundo.png'); 
+        background-color: black;
+        background-size: 
+            100%,   
+            cover; 
+        background-position: 
+            center,  
+            center;  
+        background-repeat: 
+            no-repeat,
+            no-repeat;
+        left: 0;
+        top: 0;
+        padding: 15px;
+        text-align: center;
 
-    </div>
-</body>
+        color: black;
+    font-family: sans-serif;
 
-</html>
+    }
+
+    .btn {    background: black;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;}
+    
+    
+    

@@ -1,79 +1,47 @@
-/* Reset de margens e melhor responsividade */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-}
-
-
-#conteudo {
-    width: 100vw;
-    height: 100vh;
+#conteudo {width: 100%;
+    height: 100%;
     position: fixed;
-    color: white;
-    background-image: 
-        url('img/coração-fotos.png'),  
-        url('img/ads.png'),  
-        url('imgfundo.png');  
-    background-color: black;
-    background-size: 
-        60%, 
-        80%, 
-        cover; 
-    background-position: 
-        center top, 
-        center center,
-        center center; 
-    background-repeat: 
-        no-repeat, 
-        no-repeat, 
-        no-repeat;
+    color: aliceblue;
+    background-image:url('img/coração-fotos.png');
+    
     left: 0;
     top: 0;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-#topo {
-    width: 100%;
-    position: absolute;
-    top: 5%;
     text-align: center;
-}
 
+        width: 1324px;
+        height: 630px;
+        position: fixed;
+        color: aliceblue;
+        background-image: 
+            url('img/ads.png'), 
+            url('img/fundo.png'); 
+        background-color: black;
+        background-size: 
+            100%,   
+            cover; 
+        background-position: 
+            center,  
+            center;  
+        background-repeat: 
+            no-repeat,
+            no-repeat;
+        left: 0;
+        top: 0;
+        padding: 15px;
+        text-align: center;
 
-h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
+        color: black;
+    font-family: sans-serif;
 
+    }
 
-.btn {
-    background: black;
-    color: white;
+    .btn {    background: black;
+    color: aliceblue;
     border: none;
-    padding: 12px 20px;
-    font-size: 18px;
-    width: 120px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin: 10px;
-}
-
-.btn:hover {
-    background: red;
-}
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;}
+    
+    
+    
